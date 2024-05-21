@@ -1,0 +1,97 @@
+body
+{
+    color:darkgrey;
+    text-align: center;
+    position: relative;
+
+}
+.top-container
+{
+    background-color:rgb(238, 238, 238);
+    padding-top: 100px;
+    position: relative;
+}
+h1
+{
+    font-family: "Pacifico";
+    color: black;
+    
+}
+h2
+{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+  }
+  h3{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+  }
+  .top-image
+  {
+    position: absolute;
+    right: 200px;
+    top: 0px;
+    height:100px;
+  }
+  .bottom-image
+  {
+    position: absolute;
+    left: 200px;
+    bottom: 230px;
+    height:100px;
+  }
+  .last-image
+  {
+    margin-top: 150px;
+  }
+  .middle-container
+  {
+    margin:100px 0;
+  }
+  .profile-pic
+  {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .intro
+  {
+    width: 30%;
+    margin: auto;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr); 
+    width: 50%;
+    margin: 50px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+hr {
+    border: dotted rgb(169, 29, 58) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.btn
+{  background: rgb(199, 54, 89);
+      background-image: linear-gradient(to bottom,rgb(199, 54, 89), rgb(197, 97, 121));
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.bottom-container {
+    background-color:rgb(169, 29, 58);
+    padding: 50px 0 20px;
+}
